@@ -119,4 +119,5 @@ Try Our Demo!
 - You have completed the demo :)
 - The results folder contains some samples
 ## Interested in Mobile-View Testing?
-- insert the following line ``` browser.driver.manage().window().setSize(700, 720); ``` before compareFullPageImages() gets called
+- insert the following line ``` browser.driver.manage().window().setSize(700, 720); before compareFullPageImages() gets called
+
