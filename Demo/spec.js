@@ -4,9 +4,6 @@ fs = require('fs-extra');
 path = require('path');
 rimraf = require('rimraf');
 
-rimraf('./e2e/', function () {
-   console.log('Previous results cleaned.');
-});
 
 browser.visualDifferenceTool = new visualDifferenceTool({
      rootPath: './e2e/',
